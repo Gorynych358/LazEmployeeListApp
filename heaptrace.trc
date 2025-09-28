@@ -1,0 +1,388 @@
+E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe 
+Heap dump by heaptrc unit of E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe
+46430 memory blocks allocated : 56242693/56296920
+46430 memory blocks freed     : 56242693/56296920
+0 unfreed memory blocks : 0
+True heap size : 1900544 (160 used in System startup)
+True free heap : 1900384
+E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe 
+Heap dump by heaptrc unit of E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe
+52003 memory blocks allocated : 64022234/64077320
+51997 memory blocks freed     : 64021692/64076776
+6 unfreed memory blocks : 542
+True heap size : 1966080 (160 used in System startup)
+True free heap : 1964064
+Should be : 1964224
+Call trace for block $0000000009B8EF00 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $0000000009B9D980 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $0000000009B8EDE0 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $0000000009B9A540 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $0000000009B564B0 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+Call trace for block $0000000009B56A50 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe 
+Heap dump by heaptrc unit of E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe
+56170 memory blocks allocated : 69249334/69305008
+56161 memory blocks freed     : 69248521/69304192
+9 unfreed memory blocks : 813
+True heap size : 1966080 (160 used in System startup)
+True free heap : 1963136
+Should be : 1963376
+Call trace for block $0000000009ADEF00 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $0000000009AEDC40 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $0000000009ADF140 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $0000000009AEDAE0 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $0000000009ADECC0 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $0000000009AEA540 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $0000000009AA6390 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+Call trace for block $0000000009AA64B0 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+Call trace for block $0000000009AA6A50 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe 
+Heap dump by heaptrc unit of E:\LazarusDelphi\EmployeesListApp\EmployeeListApp.exe
+52758 memory blocks allocated : 64468079/64523240
+52752 memory blocks freed     : 64467537/64522696
+6 unfreed memory blocks : 542
+True heap size : 1966080 (160 used in System startup)
+True free heap : 1964064
+Should be : 1964224
+Call trace for block $00000000099EEDE0 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $00000000099FD980 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $00000000099EEBA0 size 64
+  $0000000100013259
+  $00000001000598A9
+  $0000000100059230
+  $0000000100059543
+  $00000001000594F8
+  $0000000100059ADD
+  $000000010003935E  OnEmployeeItemMouseDown,  line 228 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+Call trace for block $00000000099FA540 size 144
+  $0000000100013259
+  $000000010000FA58
+  $00000001000575E5
+  $00000001000392E6  OnEmployeeItemMouseDown,  line 226 of Views/View.MainForm.pas
+  $000000010016A8EF  MOUSEDOWN,  line 4543 of include/control.inc
+  $0000000100164CB3  DOMOUSEDOWN,  line 2344 of include/control.inc
+  $00000001001653B1  WMLBUTTONDOWN,  line 2523 of include/control.inc
+  $000000010000FEFE
+  $0000000100164BAF  WNDPROC,  line 2304 of include/control.inc
+  $00000001001635A8  PERFORM,  line 1625 of include/control.inc
+  $0000000100156BE3  ISCONTROLMOUSEMSG,  line 4774 of include/wincontrol.inc
+  $00000001001581F6  WNDPROC,  line 5397 of include/wincontrol.inc
+  $0000000100212643  DELIVERMESSAGE,  line 114 of lclmessageglue.pas
+  $0000000100136FD1  DOWINDOWPROC,  line 2642 of win32callback.inc
+  $0000000100137829  WINDOWPROC,  line 2807 of win32callback.inc
+  $00007FFF1682EF5C
+Call trace for block $00000000099B64B0 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
+Call trace for block $00000000099B6A50 size 63
+  $0000000100013259
+  $0000000100009A46
+  $000000010000AC8A
+  $000000010000B78B
+  $000000010024C3AB  CREATETEXTNODEBUF,  line 2685 of laz2_dom.pas
+  $00000001002575AF  DOTEXT,  line 3852 of laz2_xmlread.pas
+  $0000000100255526  PARSECONTENT,  line 3246 of laz2_xmlread.pas
+  $00000001002514C6  PROCESSXML,  line 1710 of laz2_xmlread.pas
+  $000000010024F304  PARSE,  line 925 of laz2_xmlread.pas
+  $0000000100341145  READXMLSTREAM,  line 334 of source/common/fpsxmlcommon.pas
+  $00000001002D9F4C  READFROMSTREAM,  line 4499 of source/common/xlsxooxml.pas
+  $00000001002A1FB4  READFROMFILE,  line 589 of source/common/fpsreaderwriter.pas
+  $0000000100276121  READFROMFILE,  line 6579 of source/common/fpspreadsheet.pas
+  $00000001002764A1  READFROMFILE,  line 6646 of source/common/fpspreadsheet.pas
+  $000000010003F730  GetEmployeeList,  line 150 of Models/Model.EmployeeRepository.pas
+  $000000010004099A  GetEmployeeList,  line 127 of Models/Model.Main.pas
